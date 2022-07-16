@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins'), url('./../resource/fonts/poppins/Poppins-Medium.ttf') format('woff');
+}
+*{
+    font-family: Poppins!important;
+}
+
+body{
+    /* color: #858694; */
+    color: #2c2d30;
+}
+a{
+    text-decoration: none;
+}
+
+.bars-active{
+    display: block!important;
+}

@@ -1,5 +1,6 @@
 .button-icon{
     display: flex;
+    align-items: center;
     border: none;
     padding: 10px;
     cursor: pointer;

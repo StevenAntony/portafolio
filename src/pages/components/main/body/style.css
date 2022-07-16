@@ -1,0 +1,13 @@
+.aboutme{
+    padding-top: 200px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    background-image: url('../../../../utils/img/ondas.png');
+}
+
+.grid-info{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    gap: 10px;
+}

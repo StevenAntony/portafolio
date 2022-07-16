@@ -1,0 +1,44 @@
+.front{
+    padding-top:70px;
+    height: 650px;
+}
+
+.img-front{
+    height: 100%;
+    width: 100%;
+}
+
+.text-yo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.text-yo h1{
+    font-size: 3rem;
+}
+
+.text-yo h1 strong{
+    color: #0061f2;
+}
+
+.text-yo h4{
+    font-size: 1rem;
+    color: #858694;
+}
+
+@media (max-width: 768px){
+    .front{
+        height: 450px;
+    }
+}
+
+@media (max-width: 576px){
+    .front{
+        height: 400px;
+    }
+    .text-yo h1{
+        font-size: 2rem;
+    }
+}

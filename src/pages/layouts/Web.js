@@ -1,7 +1,11 @@
-import Header from "../components/Header";
+import Header from '../components/main/header/Header';
+
 function Web() {
   return (
-    <Header />
+    <div>    
+      <Header />
+    </div>
+    
   );
 }
 

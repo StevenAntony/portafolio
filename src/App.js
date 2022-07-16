@@ -1,8 +1,8 @@
-import Web from "./pages/layouts/Web";
+import LaginPage from "./pages/view/LaginPage";
 
 function App() {
   return (
-    <Web />
+    <LaginPage />
   );
 }
 
