@@ -1,0 +1,25 @@
+.button-icon{
+    display: flex;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.button-icon:hover{
+    opacity: 0.8;
+    transition: 0.7s;
+}
+
+.btn-icon{
+    font-size: 1rem;
+}
+
+.btn-text{
+    margin-left: 5px;
+    font-size: 1rem;
+}
+
+.button-Outline{
+    border:1px solid gray;
+}

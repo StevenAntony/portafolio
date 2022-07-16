@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins'), url('./../resource/fonts/poppins/Poppins-Light.ttf') format('woff');
+}
+*{
+    font-family: Poppins!important;
+}
+
+.App-logo{
+    height: 60px;
+}
+
+.App-header{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    gap: 20px;
+    height: 70px;
+}
+
+.item-header{
+    text-align: center;
+}
+
+.item-header ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    align-items: center;
+    padding: 0px;
+}
+
+.item-header:nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-header ul li{
+    flex: 1;
+    text-align: center;
+}
+
+.btn-whatsapp{
+    background: #128c7e;
+    color: #fff;
+}
