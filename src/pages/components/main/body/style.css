@@ -27,6 +27,7 @@
 
 .myskills p {
     position: relative;
+    z-index: -1;
 }
 
 .myskills p span {
