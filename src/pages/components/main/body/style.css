@@ -16,6 +16,29 @@
     width: 100%;
 }
 
+.myskills{
+    padding: 100px 0px;
+}
+
+.myskills .d-grid{
+    gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.myskills p {
+    position: relative;
+}
+
+.myskills p span {
+    width: 100px;
+    position: absolute;
+    right: 0;
+    opacity: 1;
+    height: 5px;
+    bottom: 0px;
+    background: #0d6efd;
+}
+
 @media (max-width: 576px) { 
     .item-correo{
         line-height: 2;
@@ -23,5 +46,12 @@
     }
     .mx-5{
         margin: 0px 0px!important;
+    }
+}
+
+@media (max-width: 992px) {
+    .myskills .d-grid{
+        overflow: auto;
+        grid-template-columns: repeat(8,minmax(290px, auto));
     }
 }

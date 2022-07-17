@@ -3,6 +3,7 @@ import Web from '../layouts/Web';
 import Front from '../components/main/front/Front';
 import AboutMe from '../components/main/body/AboutMe';
 import './../../utils/style/web.css';
+import MySkills from '../components/main/body/MySkills';
 
 function LaginPage() {
   return (
@@ -10,6 +11,7 @@ function LaginPage() {
       <Web />
       <Front />
       <AboutMe />
+      <MySkills />
     </div>
     
   );
