@@ -11,3 +11,17 @@
     grid-template-columns: 0.2fr 1fr;
     gap: 10px;
 }
+
+.img-banner{
+    width: 100%;
+}
+
+@media (max-width: 576px) { 
+    .item-correo{
+        line-height: 2;
+        font-size: 0.8rem!important;
+    }
+    .mx-5{
+        margin: 0px 0px!important;
+    }
+}
