@@ -48,7 +48,7 @@
 .myservices p {
     position: relative;
     /* z-index: -1; */
-    color: #b73fa3;
+    color: #dcb13f;
 }
 
 .myservices p span {
@@ -58,7 +58,7 @@
     opacity: 1;
     height: 5px;
     bottom: 0px;
-    background: #b73fa3;
+    background: #dcb13f;
 }
 
 .myservices .d-grid{
