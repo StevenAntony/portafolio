@@ -40,6 +40,32 @@
     background: #0d6efd;
 }
 
+.myservices{
+    background: #f6f8f9;
+    padding: 100px 0px;
+}
+
+.myservices p {
+    position: relative;
+    /* z-index: -1; */
+    color: #b73fa3;
+}
+
+.myservices p span {
+    width: 100px;
+    position: absolute;
+    left: 0;
+    opacity: 1;
+    height: 5px;
+    bottom: 0px;
+    background: #b73fa3;
+}
+
+.myservices .d-grid{
+    gap: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
 @media (max-width: 576px) { 
     .item-correo{
         line-height: 2;
@@ -48,6 +74,11 @@
     .mx-5{
         margin: 0px 0px!important;
     }
+
+    .myservices .d-grid{
+        grid-template-columns: 1fr;
+    }
+
 }
 
 @media (max-width: 992px) {

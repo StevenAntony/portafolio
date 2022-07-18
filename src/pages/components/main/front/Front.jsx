@@ -2,9 +2,29 @@ import ImagenPortada from './../../../../utils/img/programming.svg';
 import Button from 'react-bootstrap/Button';
 import './front.css';
 
+const Animate = () => {
+    return (
+        <div className="area" >
+            <ul className="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+    )
+}
+
 function Front() {
   return (
     <div className="front">
+        <Animate />
         <div className='container h-100'>
             <div className='row h-100'>
                 <div className='col-md-6 col-sm-12'>
