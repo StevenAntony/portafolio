@@ -1,8 +1,12 @@
+import Button from 'react-bootstrap/Button';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPhp, faLaravel, faJs, faReact, faHtml5, faCss3 } from '@fortawesome/free-brands-svg-icons';
+import {faDatabase} from '@fortawesome/free-solid-svg-icons';
 import './style.css';
 import DisenoWeb from './diseno-web.png';
 import DesarrolloWeb from './desarrollo-de-aplicaciones.png';
 import BaseDatos from './base-de-datos.png';
-import Wave from './wave.svg';
+import Wave from './waveInversa.svg';
 
 const sevicesData = [{'Icon' : DisenoWeb, 'Name' : 'Diseño Web', 'Desc':' Enfocada a la UI/UX, teniendo diseños intuitivos y llamativos perfecto para distintos dispositivos.'},
                     {'Icon' : DesarrolloWeb, 'Name' : 'Contrucción de aplicaciones web', 'Desc':` Desarrollo de aplicaciones web, teniendo experiencia en proyecto como sistemas de ventas,
@@ -21,11 +25,11 @@ const ItemServices = ({data}) => (
             </div>
             )
 
-function MyServices() {
+function MyProyect() {
   return (
-    <div className="myservices">
-        <img src={Wave} alt="" />
-        <div style={{background:'#0d6efd0d'}}> 
+    <div className="myproyect">
+        <img src={Wave} alt="" style={{background:'#f3f8ff'}} />
+        <div style={{background:'#fff'}}> 
             <div className='container h-100'>
                 <p className='fs-1 text-uppercase fw-bold'>Mis Servicios
                     <span />
@@ -42,4 +46,4 @@ function MyServices() {
   );
 }
 
-export default MyServices;
+export default MyProyect;

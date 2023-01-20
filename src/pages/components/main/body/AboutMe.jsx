@@ -8,6 +8,7 @@ import Baner from './../../../../utils/img/banner-1.png';
 function AboutMe() {
   return (
     <div className="aboutme">
+        
         <div className='container h-100'>
             <div className='row h-100'>
                 <div className='col-lg-5 col-md-3 md-sm-4 col-12 d-sm-block d-none'>
