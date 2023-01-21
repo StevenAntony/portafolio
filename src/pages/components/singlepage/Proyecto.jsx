@@ -5,6 +5,7 @@ import Transporte from "../../../utils/img/proyect/Transporte.png";
 import Guadalupe from "../../../utils/img/proyect/Guadalupe.png";
 import SanGabriel from "../../../utils/img/proyect/SanGabriel.png";
 import Inversion from "../../../utils/img/proyect/Inversion.png";
+import Carousel from "react-bootstrap/Carousel";
 import { useState } from "react";
 
 const proyect = [
@@ -34,6 +35,11 @@ const RenderItem = (props) => {
 function Proyecto() {
   const clasActivar = 'btn w-100 opt-rango ';
   const [isActivar, setActivar] = useState({Front : true,Backend : false , Full : false});
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
 
   const activar = (tipo) => {
     let actualizar = {Front : tipo === 'Front'  ,Backend : tipo === 'Backend' , Full : tipo === 'Full'};
@@ -46,7 +52,26 @@ function Proyecto() {
         <div className='col-12'>
             <h1 className='text-center title-proyecto'>Proyectos</h1>
             <p className='text-center'>Aquí hay algunos proyectos de aplicaciones y paginas web en las que he trabajado para <span className='text-primary'>ItnovateLab</span>.</p>
-            <div className='d-flex flex-wrap justify-content-center'>
+            <div className="col-lg-9 col-md-10 col-12 m-auto">
+              <Carousel activeIndex={index} onSelect={handleSelect} >
+                {proyect.map((row) => {
+                  return (<Carousel.Item>
+                          <img
+                            className="d-block w-100"
+                            style={{'filter': 'brightness(0.3)'}}
+                            src={row.Img}
+                            alt="First slide"
+                          />
+                          <div className="capa" style={{position:'absolute',top:'0px',left:'0px',width:'100%',height:'100%',background:'#242424bd;'}}></div>
+                          <Carousel.Caption>
+                            <h3>{row.Tipo}</h3>
+                            <p>{row.Cargo}</p>
+                          </Carousel.Caption>
+                        </Carousel.Item>)
+                })}
+              </Carousel>
+            </div>
+            {/* <div className='d-flex flex-wrap justify-content-center'>
               <div className="col-xl-2 col-md-3 col-4 text-center"><button type="button" className={isActivar.Front ? `${clasActivar} active` : clasActivar } onClick={() => activar('Front')}>Frontend</button> </div>
               <div className="col-xl-2 col-md-3 col-4 text-center"><button type="button" className={isActivar.Backend ? `${clasActivar} active` : clasActivar } onClick={() => activar('Backend')}>Backend</button> </div>
               <div className="col-xl-2 col-md-3 col-4 text-center"><button type="button" className={isActivar.Full ? `${clasActivar} active` : clasActivar } onClick={() => activar('Full')}>Full Stack</button></div>
@@ -55,7 +80,7 @@ function Proyecto() {
               {proyect.map((row) => {
                 return <RenderItem key={row.Tipo} data={row}></RenderItem>
               })}
-            </div>
+            </div> */}
         </div>
     </div>
   );
