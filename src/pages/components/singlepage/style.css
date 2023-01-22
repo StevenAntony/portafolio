@@ -280,3 +280,13 @@
         left: 0px;
     }
 }
+
+@media (max-width:400px) {
+    #contacto .card-content{
+        padding: 50px 20px!important;
+    }
+    #contacto{
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }
+}
