@@ -48,12 +48,12 @@ function Proyecto() {
   }
   
   return (
-    <div className="d-flex flex-wrap mi-proyecto container" id='mi-proyecto'>
+    <div className="d-flex flex-wrap mi-proyecto container pb-5 mb-5" id='mi-proyecto'>
         <div className='col-12'>
             <h1 className='text-center title-proyecto'>Proyectos</h1>
             <p className='text-center'>Aquí hay algunos proyectos de aplicaciones y paginas web en las que he trabajado para <span className='text-primary'>ItnovateLab</span>.</p>
             <div className="col-lg-9 col-md-10 col-12 m-auto">
-              <Carousel activeIndex={index} onSelect={handleSelect} >
+              <Carousel activeIndex={index} onSelect={handleSelect} touch='true'>
                 {proyect.map((row) => {
                   return (<Carousel.Item>
                           <img

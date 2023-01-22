@@ -251,6 +251,19 @@
     transition: 2s;
 }
 
+#contacto {
+    background: var(--secondary-bg-color);
+}
+
+#contacto .title-contacto{
+    font-size: 2.6rem;
+    font-family: 'Mosk-bold'!important;
+}
+
+#contacto .card-app{
+    border-radius: 5px;
+}
+
 @keyframes slidein {
     0% {
         bottom: 0px;
