@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.274ccd7b.css",
-    "main.js": "/portafolio/static/js/main.54f87174.js",
+    "main.css": "/portafolio/static/css/main.b0f58d7d.css",
+    "main.js": "/portafolio/static/js/main.d5d0cefc.js",
     "static/js/787.752e8b71.chunk.js": "/portafolio/static/js/787.752e8b71.chunk.js",
-    "static/media/Poppins-Medium.ttf": "/portafolio/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
-    "static/media/banner-1.png": "/portafolio/static/media/banner-1.0e3c8daf3eead1bebabf.png",
-    "static/media/programming.svg": "/portafolio/static/media/programming.1f3ca782e7ec9061110914f65e2a3eb9.svg",
-    "static/media/ondas.png": "/portafolio/static/media/ondas.f5a1474cb1d464f2c528.png",
-    "static/media/desarrollo-de-aplicaciones.png": "/portafolio/static/media/desarrollo-de-aplicaciones.149e7ee9753deb437a6d.png",
-    "static/media/diseno-web.png": "/portafolio/static/media/diseno-web.676b5b0a4743f02773c8.png",
-    "static/media/logo.svg": "/portafolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Inversion.png": "/portafolio/static/media/Inversion.794dcc587748e87224c4.png",
+    "static/media/SanGabriel.png": "/portafolio/static/media/SanGabriel.a7c156584fa07d6bed54.png",
+    "static/media/Guadalupe.png": "/portafolio/static/media/Guadalupe.def16af50ef04ac43a53.png",
+    "static/media/Transporte.png": "/portafolio/static/media/Transporte.ca0a8f70dbe049d45aa7.png",
+    "static/media/Restaurant.png": "/portafolio/static/media/Restaurant.4f3720bb50f9d8584210.png",
+    "static/media/Hotel.png": "/portafolio/static/media/Hotel.4942673949c3439bbc07.png",
+    "static/media/Distribuidora.png": "/portafolio/static/media/Distribuidora.65e90e88bb0c0948cfd9.png",
+    "static/media/Mosk Medium 500.ttf": "/portafolio/static/media/Mosk Medium 500.8e0c9d0b1c222e28471d.ttf",
+    "static/media/Mosk Ultra-Bold 900.ttf": "/portafolio/static/media/Mosk Ultra-Bold 900.4ae330c3d92cc3121667.ttf",
     "index.html": "/portafolio/index.html",
-    "main.274ccd7b.css.map": "/portafolio/static/css/main.274ccd7b.css.map",
-    "main.54f87174.js.map": "/portafolio/static/js/main.54f87174.js.map",
+    "main.b0f58d7d.css.map": "/portafolio/static/css/main.b0f58d7d.css.map",
+    "main.d5d0cefc.js.map": "/portafolio/static/js/main.d5d0cefc.js.map",
     "787.752e8b71.chunk.js.map": "/portafolio/static/js/787.752e8b71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.274ccd7b.css",
-    "static/js/main.54f87174.js"
+    "static/css/main.b0f58d7d.css",
+    "static/js/main.d5d0cefc.js"
   ]
 }
