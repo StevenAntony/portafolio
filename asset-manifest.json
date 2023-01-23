@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.b0f58d7d.css",
-    "main.js": "/portafolio/static/js/main.d5d0cefc.js",
+    "main.css": "/portafolio/static/css/main.ceb0eab1.css",
+    "main.js": "/portafolio/static/js/main.d443dbe4.js",
     "static/js/787.752e8b71.chunk.js": "/portafolio/static/js/787.752e8b71.chunk.js",
     "static/media/Inversion.png": "/portafolio/static/media/Inversion.794dcc587748e87224c4.png",
     "static/media/SanGabriel.png": "/portafolio/static/media/SanGabriel.a7c156584fa07d6bed54.png",
@@ -13,12 +13,12 @@
     "static/media/Mosk Medium 500.ttf": "/portafolio/static/media/Mosk Medium 500.8e0c9d0b1c222e28471d.ttf",
     "static/media/Mosk Ultra-Bold 900.ttf": "/portafolio/static/media/Mosk Ultra-Bold 900.4ae330c3d92cc3121667.ttf",
     "index.html": "/portafolio/index.html",
-    "main.b0f58d7d.css.map": "/portafolio/static/css/main.b0f58d7d.css.map",
-    "main.d5d0cefc.js.map": "/portafolio/static/js/main.d5d0cefc.js.map",
+    "main.ceb0eab1.css.map": "/portafolio/static/css/main.ceb0eab1.css.map",
+    "main.d443dbe4.js.map": "/portafolio/static/js/main.d443dbe4.js.map",
     "787.752e8b71.chunk.js.map": "/portafolio/static/js/787.752e8b71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0f58d7d.css",
-    "static/js/main.d5d0cefc.js"
+    "static/css/main.ceb0eab1.css",
+    "static/js/main.d443dbe4.js"
   ]
 }
