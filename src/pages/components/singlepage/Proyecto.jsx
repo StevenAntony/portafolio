@@ -51,11 +51,33 @@ function Proyecto() {
     <div className="d-flex flex-wrap mi-proyecto container pb-5 mb-5" id='mi-proyecto'>
         <div className='col-12'>
             <h1 className='text-center title-proyecto'>Proyectos</h1>
-            <p className='text-center'>Aquí hay algunos proyectos de aplicaciones y paginas web en las que he trabajado para <span className='text-primary'>ItnovateLab</span>.</p>
+            <p className='text-center'>Aquí hay algunos de varios proyectos de aplicaciones y paginas web en las que he trabajado para <span className='text-primary'>ItnovateLab</span>.</p>
             <div className="col-lg-9 col-md-10 col-12 m-auto">
-              <Carousel activeIndex={index} onSelect={handleSelect} touch='true'>
+              <div className="d-flex flex-wrap justify-content-center">
+                {proyect.map((row) => {
+                    return (
+                      <div className="col-lg-4 col-md-6 col-12">
+                        <div className="itemGaleria">
+                          <img
+                              className="d-block w-100"
+                              src={row.Img}
+                              alt="First slide"
+                            />
+                          <div className="capa-galeria">
+                            {row.Tipo}
+                          </div>
+                        </div>
+                      </div>
+                    )
+                  })
+                }
+              </div>
+              {/* <Carousel activeIndex={index} onSelect={handleSelect} touch='true'>
                 {proyect.map((row) => {
                   return (<Carousel.Item>
+                          <div className="">
+
+                          </div>
                           <img
                             className="d-block w-100"
                             style={{'filter': 'brightness(0.3)'}}
@@ -69,7 +91,7 @@ function Proyecto() {
                           </Carousel.Caption>
                         </Carousel.Item>)
                 })}
-              </Carousel>
+              </Carousel> */}
             </div>
             {/* <div className='d-flex flex-wrap justify-content-center'>
               <div className="col-xl-2 col-md-3 col-4 text-center"><button type="button" className={isActivar.Front ? `${clasActivar} active` : clasActivar } onClick={() => activar('Front')}>Frontend</button> </div>

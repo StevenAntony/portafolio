@@ -119,6 +119,15 @@
 
 .menubar-option{
     display: none;
+    position: absolute;
+    background: #fff;
+    left: 0px;
+    top: 70px;
+    font-size: 1rem;
+}
+
+.menubar-option.active{
+    display: block;
 }
 
 @media (min-width: 576px) { 
@@ -127,6 +136,10 @@
     }
     .menubar-option{
         display: block;
+        position: relative;
+        background: initial;
+        left: 0px;
+        top: 0px;
     }
 }
 
@@ -217,6 +230,9 @@
 .info-proyect p:nth-child(2){
     color: var(--main-bg-color);
 }
+#mi-proyecto{
+    margin-top: -160px;
+}
 
 #mi-proyecto .btn{
     border-radius: 0px;
@@ -264,6 +280,55 @@
     border-radius: 5px;
 }
 
+/*
+    +   Style input form
+*/
+.form-control-app{
+    position: relative;
+}
+
+.form-control-app input,.form-control-app textarea{
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 2px solid #0050fd;
+}
+
+.form-control-app input + label, .form-control-app textarea + label{
+    position: absolute;
+    top: -15px;
+    font-size: 0.8rem;
+    color: #0050fd;
+    transition: 0.2s;
+}
+
+.form-control-app input[value=""] + label, .form-control-app textarea[value=""] + label{
+    position: absolute;
+    top: 0px;
+    color: initial;
+    font-size: 1rem;
+    transition: 0.2s;
+}
+
+.form-control-app input[value=""], .form-control-app textarea[value=""]{
+    border-bottom: 2px solid #2c2a32;
+}
+
+.form-control-app input:focus + label{
+    top: -15px;
+    font-size: 0.8rem;
+    color: #0050fd;
+    transition: 0.2s;
+}
+
+.form-control-app input:focus, .form-control-app textarea:focus{
+    box-shadow: none !important;
+    border-bottom: 2px solid #0050fd;
+}
+
+/*
+    +   End Style input form
+*/
+
 @keyframes slidein {
     0% {
         bottom: 0px;
@@ -289,4 +354,68 @@
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
+}
+
+.itemGaleria{
+    margin: 5px;
+    position: relative;
+}
+
+.itemGaleria:hover .capa-galeria{
+    transform: scaleX(1);
+    transition: .4s;
+}
+
+.capa-galeria{
+    position: absolute;
+    transform: scaleX(0);
+    transition: .4s;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #2c2a32c9;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.icon-redes{
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+}
+
+.icon-redes li{
+    list-style: none;
+}
+
+.icon-redes li a{
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faLinkedinIn a{
+    background-color: #0d6efd;
+}
+
+.faGithub a{
+    background-color: #2c2a32;
+}
+
+.faWhatsapp a{
+    background-color: #00a884;
+}
+
+.fafacebook a{
+    background-color: #0050fd;
+}
+
+.fainstagram a{
+    background-color: #0050fd;
 }

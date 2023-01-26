@@ -5,6 +5,7 @@ import Portada from '../components/singlepage/Portada';
 import SobreMi from '../components/singlepage/SobreMi';
 import Proyecto from '../components/singlepage/Proyecto';
 import Contacto from '../components/singlepage/Contacto';
+import Redes from '../components/singlepage/Redes';
 // import Web from '../layouts/Web';
 // import Front from '../components/main/front/Front';
 // import AboutMe from '../components/main/body/AboutMe';
@@ -20,6 +21,7 @@ function LaginPage() {
       <SobreMi />
       <Proyecto />
       <Contacto />
+      <Redes />
       {/* <Web />
       <Front />
       <AboutMe />
